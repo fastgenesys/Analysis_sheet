@@ -46,3 +46,9 @@ The dashboard has campus, section, subject, and date filters, KPI cards, bar/lin
 `verify.py` independently recalculates KPIs from source cells using openpyxl, reconciles campus totals, checks exported raw values, verifies original-file SHA-256, checks native Excel charts/heatmap, and exercises default/filter/empty dashboard states. openpyxl warns about invalid dependencies in the **source's existing pivot cache**; the workbook is not modified to suppress that warning.
 
 Data, source, font, and generated reports are tracked in local Git at the user's request. The workbook contains mentor names and free-text responses. No remote push is performed automatically. Local generated caches, credentials, and virtual environments are excluded. Regenerate reports with `analysis.py`; the original file is read only by the analysis.
+
+## Functional offline dashboard
+
+Download `reports/feedback_dashboard.zip`, extract it, then open `dashboard.html` in Chrome, Edge, Firefox, or Safari (not a text editor or chat preview). It contains live browser-side campus/section/subject/date filters, KPI cards, six Plotly charts, a minimum-sample campus comparison table, reset, and filtered CSV download. JavaScript, the Nastaleeq font, and non-identifying response fields are embedded; no internet or Python is required. Rebuild with `python build_offline.py`. Mentor names and free text are excluded. This is an offline application, not a hosted public URL.
+
+Validated in Chromium: six charts rendered; font loaded; 560 default responses; Lahore filter returned 81; empty-state, reset and CSV export worked; downloaded CSV contained 560 rows and reproduced the course mean; no JavaScript page errors. ZIP extraction integrity was verified. `reports/dashboard_preview.png` shows the rendered interface.

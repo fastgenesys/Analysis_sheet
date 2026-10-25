@@ -1,0 +1,12 @@
+URDU FEEDBACK DASHBOARD — OPENING INSTRUCTIONS
+
+1. Download feedback_dashboard.zip to your computer.
+2. Extract / unzip it. Do not open the HTML inside a text editor or chat preview.
+3. Double-click dashboard.html, or use Open With > Chrome, Edge, Firefox or Safari.
+4. Select campus, section, subject, dates. KPIs and all charts update immediately.
+5. Use Reset to clear filters. Download CSV exports the selected non-identifying data.
+
+Works offline: no Python, Streamlit, internet connection, or font installation needed.
+The Urdu Nastaleeq font and Plotly are embedded. No external scripts are loaded.
+Mentor names and open-text personal responses are excluded from this dashboard.
+This is a browser dashboard file, not a hosted website. Keep the full original Excel private.

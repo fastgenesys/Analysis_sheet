@@ -1,0 +1,13 @@
+{
+  "browser": "Chromium",
+  "charts_rendered": 6,
+  "font_loaded": true,
+  "default_responses": 560,
+  "Lahore_responses": 81,
+  "empty_state": "passed",
+  "reset": "passed",
+  "csv_rows": 560,
+  "csv_course_mean": 9.025,
+  "javascript_errors": 0,
+  "zip_integrity": "passed"
+}
