@@ -52,3 +52,7 @@ Data, source, font, and generated reports are tracked in local Git at the user's
 Download `reports/feedback_dashboard.zip`, extract it, then open `dashboard.html` in Chrome, Edge, Firefox, or Safari (not a text editor or chat preview). It contains live browser-side campus/section/subject/date filters, KPI cards, six Plotly charts, a minimum-sample campus comparison table, reset, and filtered CSV download. JavaScript, the Nastaleeq font, and non-identifying response fields are embedded; no internet or Python is required. Rebuild with `python build_offline.py`. Mentor names and free text are excluded. This is an offline application, not a hosted public URL.
 
 Validated in Chromium: six charts rendered; font loaded; 560 default responses; Lahore filter returned 81; empty-state, reset and CSV export worked; downloaded CSV contained 560 rows and reproduced the course mean; no JavaScript page errors. ZIP extraction integrity was verified. `reports/dashboard_preview.png` shows the rendered interface.
+
+## Streamlit Community Cloud
+
+See [DEPLOYMENT.md](DEPLOYMENT.md). Deploy `fastgenesys/Analysis_sheet`, branch `main`, entry point `app.py`, Python 3.12. Runtime paths are repository-relative. Private account sign-in and final deployment must be completed in Streamlit Community Cloud; no hosted URL is inferred from the app or repository name.
