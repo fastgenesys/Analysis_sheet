@@ -1,0 +1,20 @@
+{
+  "source_sha256": "8a96e183f4a5dffa9213f718f33a87fd10246ede73c3fb717ba30c09b66a7c6d",
+  "kpis": {
+    "responses": 560,
+    "campuses": 36,
+    "course_rating": 9.025,
+    "teaching_rating": 9.325,
+    "mentor_rating": 9.3625,
+    "expectations_rating": 8.825,
+    "continuation_pct": 96.78571428571429,
+    "on_time_start_pct": 67.5,
+    "strong_change_pct": 60.0
+  },
+  "missing_cells": 13,
+  "exact_duplicates": 0,
+  "potential_duplicates": 0,
+  "outlier_flags": 323,
+  "invalid_ratings": 0,
+  "summary_difference": 52
+}
